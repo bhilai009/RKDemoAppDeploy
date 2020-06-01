@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "id": "dbcde800-a3c9-11ea-bce7-61781488abd3",
+  "version": "0.0.1",
+  "packageName": "rkteamsappdeploy",
+  "developer": {
+    "name": "Contoso",
+    "websiteUrl": "https://rkdemoappdeploy.azurewebsites.net",
+    "privacyUrl": "https://rkdemoappdeploy.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://rkdemoappdeploy.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "RKTeamsAppDeploy",
+    "full": "RKTeamsAppDeploy"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://rkdemoappdeploy.azurewebsites.net/defaultTab/config.html",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ],
+      "sharePointPreviewImage": "https://rkdemoappdeploy.azurewebsites.net/assets/defaultTab-preview.png",
+      "supportedSharePointHosts": [
+        "sharePointFullPage",
+        "sharePointWebPart"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "rkdemoappdeploy.azurewebsites.net"
+  ]
+}
